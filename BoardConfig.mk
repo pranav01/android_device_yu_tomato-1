@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2014 The CyanogenMod Project
+# Copyright (C) 2014 The MoKee OpenSource Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -94,7 +94,7 @@ USE_DEVICE_SPECIFIC_CAMERA := true
 BOARD_HARDWARE_CLASS := $(LOCAL_PATH)/cmhw/src
 
 # Crypto
-TARGET_HW_DISK_ENCRYPTION := true
+#TARGET_HW_DISK_ENCRYPTION := true
 
 # Display
 BOARD_EGL_CFG := $(LOCAL_PATH)/configs/egl.cfg

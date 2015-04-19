@@ -1,5 +1,5 @@
 /*
- * Copyright (C) 2014 The CyanogenMod Project
+ * Copyright (C) 2014 The MoKee OpenSource Project
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -70,7 +70,7 @@ static int getMode()
 extern "C" {
 #endif
 
-JNIEXPORT jint JNICALL Java_org_cyanogenmod_hardware_ColorEnhancement_native_1getCELevel(
+JNIEXPORT jint JNICALL Java_org_mokee_hardware_ColorEnhancement_native_1getCELevel(
         JNIEnv* env, jclass thiz)
 {
     int level = 0;
@@ -86,7 +86,7 @@ JNIEXPORT jint JNICALL Java_org_cyanogenmod_hardware_ColorEnhancement_native_1ge
     return (jint)level;
 }
 
-JNIEXPORT jint JNICALL Java_org_cyanogenmod_hardware_ColorEnhancement_native_1setCELevel(
+JNIEXPORT jint JNICALL Java_org_mokee_hardware_ColorEnhancement_native_1setCELevel(
         JNIEnv* env, jclass thiz, jint value)
 {
     int level = int(value);
